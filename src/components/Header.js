@@ -6,7 +6,7 @@ const Header = (props) => {
             <Logo>
                 <svg
                 viewBox="0 0 111 30"
-                class=""
+                class="logo-netflix"
                 focusable="false">
                     <g
                     id="">
@@ -24,7 +24,15 @@ const Header = (props) => {
 
 const Nav = styled.div``;
 
-const Logo = styled.div``;
+const Logo = styled.div`
+
+    & svg {
+        width: 100px;
+        height: auto;
+
+        padding: 10px 30px;
+    }
+`;
 
 const SignIn = styled.div``;
 
