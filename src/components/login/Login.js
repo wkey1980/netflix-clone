@@ -42,6 +42,8 @@ const Container = styled.section`
 	flex-direction: column;
 	text-align: center;
 	height: 100vh;
+	background-color: #000000;
+	opacity: 0.8;
 `;
 const Content = styled.div`
 	display: flex;
