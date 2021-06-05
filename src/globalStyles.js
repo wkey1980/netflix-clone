@@ -1,6 +1,10 @@
 import { createGlobalStyle } from 'styled-components/macro';
 
 const GlobalStyles = createGlobalStyle`
+  ${'' /* * {
+    outline: 3px solid green;
+  } */}
+
   html {
     font-size: 100%;
     box-sizing: border-box;
