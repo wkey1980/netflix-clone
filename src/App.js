@@ -1,10 +1,11 @@
-import GlobalStyle from "./globalStyles";
+import GlobalStyle from './globalStyles';
+import Login from './components/login/Login';
 
 function App() {
 	return (
-		<div className="App">
+		<div className='App'>
 			<GlobalStyle />
-			{/* <Login /> */}
+			<Login />
 			{/* <Header /> */}
 			{/* <Navbar /> */}
 			{/* <Logo /> */}
